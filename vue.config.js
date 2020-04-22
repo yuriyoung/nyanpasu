@@ -5,7 +5,6 @@ module.exports = {
   "transpileDependencies": [
     "vuetify"
   ],
-  publicPath: 'nyanpasu', // change this if runing on github gh-pages
   chainWebpack: config => {
     config.resolve.alias
       .set("@", resolve("src"))
