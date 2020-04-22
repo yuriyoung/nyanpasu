@@ -1,3 +1,4 @@
+require('dotenv').config()
 const path = require('path')
 const resolve = file => path.resolve(__dirname, file)
 
@@ -5,6 +6,7 @@ module.exports = {
   "transpileDependencies": [
     "vuetify"
   ],
+  publicPath: process.env.APP_BASE_URL,
   chainWebpack: config => {
     config.resolve.alias
       .set("@", resolve("src"))

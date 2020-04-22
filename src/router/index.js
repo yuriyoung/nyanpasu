@@ -33,7 +33,7 @@ const routes = [
 
 export function createRouter() {
     const router = new Router({
-        base: __dirname,
+        base: process.env.APP_BASE_URL,
         mode: 'history',
         routes,
     })
