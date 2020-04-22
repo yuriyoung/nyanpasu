@@ -7,7 +7,7 @@ module.exports = {
   ],
   chainWebpack: config => {
     config.resolve.alias
-      .set("vue$", resolve("vue/dist/vue.runtime.esm.js"))
+      // .set("vue$", resolve("vue/dist/vue.runtime.esm.js"))
       .set("@", resolve("src"))
       .set("@assets", resolve("src/assets"))
       .set("@components", resolve("src/components"))
