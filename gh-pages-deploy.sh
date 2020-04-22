@@ -9,9 +9,9 @@ echo -e "\033[0;32mDeleting old dist...\033[0m"
 rm -rf $directory
 
 echo -e "\033[0;32mChecking out $branch....\033[0m"
-# Uncomment this line If you delete the dist directory without `git worktree remove`
-git worktree prune
-git worktree add $directory $branch -f
+# Uncomment the line `git worktree prune` If you delete the dist directory without `git worktree remove`
+# git worktree prune
+git worktree add $directory $branch
 
 echo -e "\033[0;32mGenerating dist...\033[0m"
 build_command
