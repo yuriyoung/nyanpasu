@@ -1,4 +1,4 @@
-# blog
+# Nyanpasu
 
 ## Project setup
 ```
