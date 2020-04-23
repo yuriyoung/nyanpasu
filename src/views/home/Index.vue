@@ -1,6 +1,6 @@
 <!-- this is home page contents -->
 <template>
-  <section>Home page content here</section>
+  <base-section>Home page content here</base-section>
 </template>
 
 <script>
