@@ -3,6 +3,7 @@ import Router from 'vue-router'
 
 import redirects from './redirects.json'
 
+
 // Utilities
 import {
     layout,
@@ -33,7 +34,7 @@ const routes = [
 
 export function createRouter() {
     const router = new Router({
-        base: __dirname,
+        base: process.env.BASE_URL,
         mode: 'history',
         routes,
     })
