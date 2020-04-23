@@ -1,23 +1,25 @@
 <!-- $attrs available in vue 2.4 or later-->
 <template>
-    <v-container class="py-6 py-md-12" fluid tag="section" v-bind="$attrs" v-on="$listeners"></v-container>
+  <v-container class="py-6 py-md-12" fluid tag="section" v-bind="$attrs" v-on="$listeners">
+    <slot />
+  </v-container>
 </template>
 
 <script>
 export default {
-    name: "BaseSection",
-    components: {},
+  name: "BaseSection",
+  components: {},
 
-    data: () => ({
-        //
-    }),
+  data: () => ({
+    //
+  }),
 
-    computed: {},
+  computed: {},
 
-    methods: {},
+  methods: {},
 
-    mounted(){}
-}
+  mounted() {}
+};
 </script>
 
 <style lang='scss' scoped>
