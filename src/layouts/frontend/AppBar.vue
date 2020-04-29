@@ -1,17 +1,18 @@
 <!-- app bar -->
 <template>
-  <v-app-bar id="app-toolbar" app dark elevate-on-scroll color="primary" extension-height="40">
+  <v-app-bar id="app-toolbar" app elevate-on-scroll color="white" extension-height="40">
     <v-container class="pa-0 d-flex">
       <base-logo />
 
+      <v-toolbar-items>
+        <base-tutorial-menu />
+        <base-mega-menu>
+          技术支持
+        </base-mega-menu>
+      </v-toolbar-items>
+
       <v-spacer />
 
-        <v-toolbar-items>
-            <v-btn exact min-width="48" text>
-                Menus
-                <v-icon>mdi-menu-down</v-icon>
-            </v-btn>
-        </v-toolbar-items>
     </v-container>
   </v-app-bar>
 </template>
