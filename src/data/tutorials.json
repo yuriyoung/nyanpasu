@@ -1,0 +1,97 @@
+[
+    {
+        "text": "学术教程",
+        "to": "academic",
+        "icon": "mdi-library",
+        "chip": "deprecated"
+    },
+    {
+        "text": "大数据分析",
+        "to": "big_data",
+        "icon": "mdi-server-network",
+        "chip": "new"
+    },
+    {
+        "text": "电脑编程",
+        "to": "computer_programming",
+        "icon": "mdi-code-braces",
+        "chip": "help"
+    },
+    {
+        "text": "数据库",
+        "to": "database",
+        "icon": "mdi-database",
+        "chip": "updated"
+    },
+    {
+        "text": "开发运维",
+        "to": "devops",
+        "icon": "mdi-shield-account"
+    },
+    {
+        "text": "脚本语言",
+        "to": "scripting_language",
+        "icon": "mdi-script"
+    },
+    {
+        "text": "软件质量",
+        "to": "software_quality",
+        "icon": "mdi-diamond-stone"
+    },
+    {
+        "text": "计算机科学",
+        "to": "computer_science",
+        "icon": "mdi-desktop-classic"
+    },
+    {
+        "text": "工程教程",
+        "to": "engineering",
+        "icon": "mdi-tower-beach",
+        "chip": "new"
+    },
+    {
+        "text": "考试大纲",
+        "to": "exams",
+        "icon": "mdi-pen"
+    },
+    {
+        "text": "机器学习",
+        "to": "machine_leaning",
+        "icon": "mdi-robot"
+    },
+    {
+        "text": "最新技术",
+        "to": "latest_technologies",
+        "icon": "mdi-radioactive"
+    },
+    {
+        "text": "管理教程",
+        "to": "management",
+        "icon": "mdi-reminder"
+    },
+    {
+        "text": "数学教程",
+        "to": "maths",
+        "icon": "mdi-sigma"
+    },
+    {
+        "text": "数字营销",
+        "to": "digital_marketing",
+        "icon": "mdi-chart-areaspline"
+    },
+    {
+        "text": "杂项教程",
+        "to": "misc_tutorials",
+        "icon": "mdi-format-list-bulleted"
+    },
+    {
+        "text": "软技能",
+        "to": "soft_skill",
+        "icon": "mdi-comment-multiple-outline"
+    },
+    {
+        "text": "面试问题",
+        "to": "questions_and_answers",
+        "icon": "mdi-account-tie"
+    }
+]
