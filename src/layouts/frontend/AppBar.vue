@@ -5,10 +5,7 @@
       <base-logo />
 
       <v-toolbar-items>
-        <base-tutorial-menu />
-        <base-mega-menu>
-          技术支持
-        </base-mega-menu>
+        <base-mega-menu text="Tutorials" :items="tutorials" />
       </v-toolbar-items>
 
       <v-spacer />
@@ -23,7 +20,7 @@ export default {
   components: {},
 
   data: () => ({
-    //
+    tutorials: require('@/data/tutorials'),
   }),
 
   computed: {},
