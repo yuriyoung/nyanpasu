@@ -13,7 +13,7 @@
   >
     <template v-slot:activator="{ on: menu }">
       <v-btn text v-on="menu" min-width="48">
-        <v-icon left class="hidden-md-and-up">{{ icon }}</v-icon>
+        <v-icon left class="hidden-md-and-up" v-if="icon">{{ icon }}</v-icon>
         <span class="subtitle-1 text-capitalize font-weight-light">{{ text }}</span>
         <v-icon right class="hidden-sm-and-down">mdi-menu-down</v-icon>
       </v-btn>
